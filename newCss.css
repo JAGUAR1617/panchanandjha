@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+
+
+.container{
+    display: flex;
+    background-color: rgb(27, 26, 25);
+}
+
+
+.header{
+    /* padding: 5px; */
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 18px;
+    width: 20vw;  
+    padding: 10px;
+}
+
+.nameA h2{
+    /* position: relative; */
+    padding: 5px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 18px;
+    /* color:aliceblue; */
+    width: 20vw;
+    background-image: linear-gradient(
+        225deg,
+        #f58905 0%,
+        #e9e6e3 29%,
+        #2feb09 67%,
+        #ffbb00 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 3s linear infinite;
+      font-family: 'Bruno Ace SC', cursive;  
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+.nameA:hover {
+    color: rgb(235, 118, 8);
+  }
+
+
+.section {
+  height: 100vh;
+  width: 90vw;
+  background-color: aliceblue;
+  position: relative;
+  padding: 0;
+  text-align: justify;
+  overflow: hidden;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 30px; */
+    font-size: 1.35rem;
+    left: -80vw;
+    top: -80vw;
+    font-family: 'Quantico', sans-serif;
+
+  
+}
+.bg1 {
+    background-color: rgb(27, 26, 25);
+  /* height: 100vh; */
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: justify;
+  overflow: hidden;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  color:aliceblue;
+  
+}
+
+.bg2 {
+    background-color: aliceblue;
+    /* height: 100vh; */
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: justify;
+  overflow: hidden;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.bg3 {
+    background-color: rgb(27, 26, 25);
+  /* height: 100vh; */
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: justify;
+  overflow: hidden;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  color:aliceblue;
+
+}
+
+.bg4 {
+    background-color: aliceblue;
+    /* height: 100vh; */
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: justify;
+  overflow: hidden;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.bg5 {
+    background-color: rgb(27, 26, 25);
+  /* height: 100vh; */
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: justify;
+  overflow: hidden;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  color:aliceblue;
+
+}
+
+.bg6 {
+    background-color: aliceblue;
+    /* height: 100vh; */
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: justify;
+  overflow: hidden;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  color:  rgb(27, 26, 25);
+}
+
+
+
+h1 {
+    margin: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.revealUp {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.spacer {
+  height: 50vh;
+  background-color: #d0bfbf;
+}
+/* 
+hr.hLine{
+    border-left: 5px solid rgb(5, 201, 240);
+    position:absolute;
+    top: 5vw;
+    bottom: 0;
+    left: 20px;
+    rotate: 90deg;
+    margin-inline-start:2vw;
+} */
+
+.header{
+    /* padding: 5px; */
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 18px;
+    width: 20vw;  
+    /* padding: 10px; */
+}
+
+.name{
+    /* position: relative; */
+    padding: 5px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 14px;
+    /* color:aliceblue; */
+    width: 20vw;
+    background-image: linear-gradient(
+        225deg,
+        #f58905 0%,
+        #e9e6e3 29%,
+        #2feb09 67%,
+        #ffbb00 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 3s linear infinite;
+      font-family: 'Bruno Ace SC', cursive;  
+}
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+.name:hover {
+    color: rgb(235, 118, 8);
+  }
+
+.navCls {
+    padding: 0px;
+    margin-block-start: 20px;
+    background-color:rgb(30, 30, 30);
+    line-height: 5pc;
+
+
+}
+
+nav{
+    /* margin-block: -120px;  */
+    font-family: 'Bruno Ace SC', cursive;
+    cursor: pointer;
+    /* list-style-type: none; */
+    
+}
+
+nav ul{
+    /* display:flex; */
+    /* margin-block: -120px;  */
+    align-items: center;
+    /* list-style-type: none; */
+    /* background-color: rgb(41, 39, 37); */
+    border-radius: 5px;
+    padding: 0px;
+    list-style-type: none;
+    line-height: 5;
+
+}
+
+
+.topHead{
+    padding: 80vw;
+    /* background-color: rgb(41, 42, 41); */
+}
+
+
+/* .header nav ul{
+    display: flex;
+    position: relative;
+    margin-block: -120px; 
+    margin-left: 240px; 
+    align-items: center;
+    list-style-type: none;
+    background-color: rgb(246, 247, 248);
+    border-radius: 5px;
+
+} */
+
+nav li a{
+    /* padding: 10px 12px; */
+    /* background: silver; */
+    position:relative;
+    /* display: flex; */
+    flex-direction: column;
+    /* gap: 3px; */    
+    color: aliceblue;
+    list-style-type: none;
+
+
+}
+
+
+/* .raju {
+    display: flex;
+    align-items: center;    
+    padding: 20px;
+    width: 240px;
+} */
+
+a {
+    text-decoration: none;
+}
+
+
+  a:hover {
+    color: rgb(10, 129, 248);
+  }
+
+  a:active {
+    color: rgb(0, 255, 55);
+  }
+
+.home {
+    /* padding-left: 30px; */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    font-size: 1.35rem;
+    /* align-items: center; */
+
+}
+
+.logo{
+    float: right;
+    width: 10%;
+    display: flex;
+    right: 30vw;
+    padding: 5px;
+}
+
+.vrLine{
+    border-left: 6px solid rgb(247, 245, 245);
+    height: 700vh;
+    position:absolute;
+    left: -1vw;
+    top: 0;
+    bottom: 0;
+} 
+p{
+  margin: 10px;
+  padding: 5px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Quantico', sans-serif;
+  
+}
