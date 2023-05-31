@@ -6,12 +6,10 @@
   letter-spacing: 0.04em;
 }
 
-
 .container{
     display: flex;
     background-color: rgb(27, 26, 25);
 }
-
 
 .header{
     /* padding: 5px; */
@@ -56,7 +54,6 @@
 .nameA:hover {
     color: rgb(235, 118, 8);
   }
-
 
 .section {
   height: 100vh;
@@ -162,7 +159,6 @@
 }
 
 
-
 h1 {
     margin: 10px;
     text-align: justify;
@@ -239,7 +235,6 @@ hr.hLine{
     background-color:rgb(30, 30, 30);
     line-height: 5pc;
 
-
 }
 
 nav{
@@ -263,14 +258,12 @@ nav ul{
 
 }
 
-
 .topHead{
     /* padding: 80vw; */
     /* background-color: rgb(41, 42, 41); */
     height: 100%;
     width: 100%;
 }
-
 
 /* .header nav ul{
     display: flex;
@@ -294,9 +287,7 @@ nav li a{
     color: aliceblue;
     list-style-type: none;
 
-
 }
-
 
 /* .raju {
     display: flex;
@@ -308,7 +299,6 @@ nav li a{
 a {
     text-decoration: none;
 }
-
 
   a:hover {
     color: rgb(10, 129, 248);
@@ -351,5 +341,4 @@ p{
   text-align: justify;
   text-justify: inter-word;
   font-family: 'Quantico', sans-serif;
-  
 }
