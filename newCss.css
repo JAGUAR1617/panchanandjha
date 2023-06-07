@@ -172,7 +172,7 @@ h1 {
 }
 
 .spacer {
-  height: 10vh;
+  height: 20vh;
   background-color: #f5b209;
 }
 /* 
@@ -342,3 +342,17 @@ p{
   text-justify: inter-word;
   font-family: 'Quantico', sans-serif;
 }
+
+
+/* .demo {
+  width: 250px;
+  height: 250px;
+  background-color: #2feb09;
+  border: 1px solid black;
+}
+
+label {
+  display: block;
+  width: max-content;
+} */
+
