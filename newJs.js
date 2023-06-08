@@ -6,7 +6,6 @@
 // }
 // });
 
-
 // gsap.registerPlugin(ScrollTrigger);
 // // REVEAL //
 // gsap.utils.toArray(".revealUp").forEach(function (elem) {
@@ -50,21 +49,17 @@
 //   });
 // });
 
+window.addEventListener("mouseup", (e) => {
+  // Let's pick a random color between #000000 and #FFFFFF
+  const color = Math.round(Math.random() * 0xffffff);
 
-window.addEventListener('mouseup', (e) => {
-    // Let's pick a random color between #000000 and #FFFFFF
-    const color = Math.round(Math.random() * 0xFFFFFF)
-  
-    // Let's format the color to fit CSS requirements
-    const fill = '#' + color.toString(16).padStart(6,'0')
+  // Let's format the color to fit CSS requirements
+  const fill = "#" + color.toString(16).padStart(6, "0");
 
-      // e = e || window.event;
+  // e = e || window.event;
   // document.getElementById('pointer').style.top=e.clientY;
   // document.getElementById('pointer').style.left=e.clientX;
-    // Let's apply our color in the
-    // element we actually clicked on
-    e.target.style.fill = fill
-  })
-
-
-
+  // Let's apply our color in the
+  // element we actually clicked on
+  e.target.style.fill = fill;
+});
