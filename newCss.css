@@ -408,3 +408,8 @@ tr:nth-child(odd) {
   font-family: 'Times New Roman', serif;
 
 }
+
+.other_projects{
+  color: aliceblue;
+  bottom: 1vh;
+}
