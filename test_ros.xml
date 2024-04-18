@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="model"/>
+  <param name="robot_description" 
+    command="$(find xacro)/xacro '$(find mobile_robot_pkg)/urdf/robot.xacro'" />
+
+  <node name="joint_state_publisher_gui"
+   pkg="joint_state_publisher_gui"
+   type="joint_state_publisher_gui" 
+   respawn="false"
+   />
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" 
+    type="robot_state_publisher"
+    />
+
+  <node name="rviz" pkg="rviz" type="rviz" 
+    args="-d $(find mobile_robot_pkg)/robot.rviz" required="true" 
+    />
+
+</launch>
+
+<?xml version="1.0"?>
+
+<launch>
+  <!-- Start Gazebo -->
+    <include file="$(find gazebo_ros)/launch/empty_worl.launch">
+      <arg name="paused" value="false"/>
+      <arg name="use_sim_time" value="true"/>
+      <arg name="gui" value="true"/>
+      <arg name="debug" value="false"/>
+      <arg name="headless" value="true">
+    </include>
+
+    <param name="robot_description" 
+      command = "$(find xacro)/xacro '$(find mobile_robot_pkg)/urdf/robot.xacro'"/>
+
+
+
+
+    <!-- Spawn robot in Gazebo -->
+    <node name="urdf_spwner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"  
+    args = "-urdf -model robot22 -param robot_description"/>
+
+
+</launch>

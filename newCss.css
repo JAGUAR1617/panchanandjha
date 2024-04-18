@@ -8,7 +8,7 @@
 
 .container{
     display: flex;
-    background-color: rgb(27, 26, 25);
+    background-color: rgb(217, 136, 54);
 }
 
 .header{
@@ -76,7 +76,7 @@
   
 }
 .bg1 {
-    background-color: rgb(27, 26, 25);
+    background-color: rgb(114, 112, 110);
   /* height: 100vh; */
   height: 100vh;
   position: relative;
@@ -102,7 +102,7 @@
 }
 
 .bg3 {
-    background-color: rgb(27, 26, 25);
+    background-color: rgb(114, 110, 110);
   /* height: 100vh; */
   height: 100vh;
   position: relative;
@@ -130,7 +130,7 @@
 }
 
 .bg5 {
-    background-color: rgb(27, 26, 25);
+    background-color: rgb(217, 136, 54);
   /* height: 100vh; */
   height: 100vh;
   position: relative;
@@ -232,7 +232,7 @@ hr.hLine{
 .navCls {
     padding: 0px;
     margin-block-start: 20px;
-    background-color:rgb(30, 30, 30);
+    background-color:rgb(217, 136, 54);
     line-height: 5pc;
 
 }
@@ -300,7 +300,7 @@ a {
 }
 .bg6 a{
   text-decoration: none;
-  color:rgb(8, 8, 8);
+  color:rgb(217, 136, 54);
 }
 
 .tableEdu a:hover {
@@ -373,7 +373,7 @@ table {
 }
 
 td, th {
-  border: 1px solid #010101;
+  border: 1px solid #e59636;
   text-align: left;
   padding: 5px;
 }
@@ -403,7 +403,7 @@ tr:nth-child(odd) {
   padding: 0 10px;
   display: none;
   overflow: hidden;
-  background-color: #190f0f;
+  background-color: #eb861a;
   font-size: 12px;
   font-family: 'Times New Roman', serif;
 
